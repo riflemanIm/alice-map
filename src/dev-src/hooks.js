@@ -8,7 +8,7 @@ type State = "loading" | "done" | "failed";
 
 const cachedStates = new Map<string, State>();
 const cachedElements = new Map<string, HTMLScriptElement>();
-const GOOGLE_API_KEY = "AIzaSyDDMxXKmKKZwRoc1G74RzAmuyEERa8ehIQ";
+const GOOGLE_API_KEY = "AIzaSyDB4GrC8rjmbahrnn-l_smRYJrrXvdzuBY";
 
 export const useScript = (src: string): State => {
   const [state, setState] = React.useState("loading");
