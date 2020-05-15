@@ -21,21 +21,12 @@ const useStyles = makeStyles({
     maxWidth: 345,
   },
   media: {
-    height: 345,
+    height: 420,
   },
 });
-//import { makeStyles } from "@material-ui/core/styles";
-// const useStyles = makeStyles({
-//   list: {
-//     width: 250,
-//   },
-//   fullList: {
-//     width: "auto",
-//   },
-// });
-// https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions
+
 const MAP_OPTIONS = {
-  zoom: 14,
+  zoom: 15,
   center: {
     lat: 55.751244,
     lng: 37.618423,
@@ -52,15 +43,11 @@ export default function Rgm() {
     console.log("evt", evt, inx);
     toggleDrawer(data[inx]);
   };
-  //const classes = useStyles();
   const [state, setOpen] = React.useState({});
 
   const toggleDrawer = (newState) => {
     setOpen({ ...newState, open: !state.open });
   };
-  // const handleDrawerOpen = () => {
-  //   setOpen(true);
-  // };
 
   const handleDrawerClose = () => {
     setOpen({ ...state, open: false });
