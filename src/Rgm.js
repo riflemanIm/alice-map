@@ -14,7 +14,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import data from "./data";
 
-console.log("data", data);
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -39,7 +38,6 @@ export default function Rgm() {
   const classes = useStyles();
   const api = useGoogleApiLoader();
   const onMarkerClick = (evt, inx) => {
-    console.log("evt", evt, inx);
     toggleDrawer(data[inx]);
   };
   const [state, setOpen] = React.useState({});
