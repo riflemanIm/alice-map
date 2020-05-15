@@ -3,16 +3,15 @@ import * as React from "react";
 import { Map, Overlay, Marker } from "rgm";
 import { css } from "@emotion/core";
 import { useGoogleApiLoader } from "./dev-src/hooks";
-//import { Ratio } from "./dev-src/controls";
 import Drawer from "@material-ui/core/Drawer";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
-//import CardActions from "@material-ui/core/CardActions";
+import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-//import Button from "@material-ui/core/Button";
+import Button from "@material-ui/core/Button";
 import data from "./data";
 
 console.log("data", data);
@@ -106,11 +105,11 @@ export default function Rgm() {
                 </Typography>
               </CardContent>
             </CardActionArea>
-            {/* <CardActions>
-              <Button size="small" color="primary">
-                Аудио
+            <CardActions>
+              <Button size="small" color="primary" onClick={handleDrawerClose}>
+                Закрыть
               </Button>
-            </CardActions> */}
+            </CardActions>
           </Card>
         </div>
       </Drawer>
