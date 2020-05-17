@@ -12,7 +12,6 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
-//import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 import ReactAudioPlayer from "react-audio-player";
 import data from "./data";
 import geoJSON from "./geoJson";
@@ -100,6 +99,7 @@ export default function Rgm() {
   const handleDrawerClose = () => {
     setOpen({ ...state, open: false });
   };
+
   React.useEffect(() => {
     setOpen({ ...data[0], open: false });
   }, []);
