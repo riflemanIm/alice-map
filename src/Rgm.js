@@ -7,7 +7,6 @@ import Drawer from "@material-ui/core/Drawer";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
@@ -140,32 +139,31 @@ export default function Rgm() {
           `}
         >
           <Card className={classes.root}>
-            <CardActionArea>
-              <CardMedia
-                className={classes.media}
-                image={state.imgLink}
-                title={state.title}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  {state.title}
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  {state.description}
-                </Typography>
-              </CardContent>
-              <CardContent>
-                <a
-                  component="button"
-                  href="./presentation.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download
-                >
-                  скачать презентацию (.pdf)
-                </a>
-              </CardContent>
-            </CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={state.imgLink}
+              title={state.title}
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                {state.title}
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                {state.description}
+              </Typography>
+            </CardContent>
+
+            <CardContent>
+              <a
+                component="button"
+                href="https://drive.google.com/uc?id=1sus2XF7ahxrk9lU0_eCJWSuFWVuH1fFu&export=download"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                скачать презентацию (.pdf)
+              </a>
+            </CardContent>
 
             <CardActions>
               <ReactAudioPlayer
