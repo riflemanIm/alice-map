@@ -165,54 +165,54 @@ export default function Rgm() {
               </a>
             </CardContent>
 
-            <CardActions>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=1ga4ck8DKZmF-iTU8WcmaiMDDRCxDFL9w&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=1f5HDU9IL2rTlwSGoojyQBWax05ylOIeG&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=11d8hwoBjpIZACq0NKiGRXqn4E7c5oFlt&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
-                src="https://drive.google.com/uc?id=1LgzOBGhoZWciGHC6q7LTC-5mBiqIlHL-&export=download"
+                src="https://drive.google.com/uc?id=1gdYZj8Zb0LUiUgLPOASZnG6Wdy_oTj25&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
-                src="https://drive.google.com/uc?id=1v4IdecUo-xlSMY3HwdH5BzNyIn2_CehO&export=download"
+                src="https://drive.google.com/uc?id=1LyL1xDljBYTw68D_ummZUruz5BAv3uVR&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=1X6Mk7V0twiUKlhUWRJKTwKXYYapPI-Kj&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=1mLTZHOiACp49fbh4XbYAF3bt47KcjWMF&export=download"
                 controls
               />
-            </CardActions>
-            <CardActions>
+            </CardContent>
+            <CardContent>
               <ReactAudioPlayer
                 src="https://drive.google.com/uc?id=1B6ct04EjP3Gd0eMLGt_456S_6U1Sj0TL&export=download"
                 controls
               />
-            </CardActions>
+            </CardContent>
 
             <CardActions
               css={css`
